@@ -1,15 +1,23 @@
+// package main
+
+// import (
+//     "fmt"
+//     "net/http"
+// )
+
+// func main() {
+//     http.HandleFunc("/", HelloServer)
+//     http.ListenAndServe(":8080", nil)
+// }
+
+// func HelloServer(w http.ResponseWriter, r *http.Request) {
+//     fmt.Fprintf(w, "Hello Github Actions")
+// }
+
 package main
 
-import (
-    "fmt"
-    "net/http"
-)
+import "fmt"
 
 func main() {
-    http.HandleFunc("/", HelloServer)
-    http.ListenAndServe(":8080", nil)
-}
-
-func HelloServer(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello Github Actions")
+	fmt.Println("executando app golang....")
 }
